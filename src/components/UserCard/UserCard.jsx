@@ -72,7 +72,7 @@ const UserCard = ({ data }) => {
                     label: element.split(' ')[0],
                     value: grouped_data[element].length
                 })
-            });s
+            });
             setDataGraph(grpD)
              let revenueAmt = sad.filter(f => f.user_id === data.fields.Id).reduce((curr, next) => {
                 return { revenue: curr.revenue + next.revenue }
